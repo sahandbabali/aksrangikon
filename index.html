@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl" >
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>عکس رنگی کن</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-      <link rel="stylesheet" href="./style.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="./deepai.min.js"></script>
-</head>
-<body>
-      <nav>
-            <div class="container">
-                  <div class="nav-wrapper">
-                        <a href="#" class="brand-logo right">عکس رنگی کن</a>
-                        <ul id="nav-mobile" class="left hide-on-med-and-down">
-                          <li><a href="https://www.behance.net/sahandbabali">کارهای من</a></li>
-                        
-                        </ul>
-                      </div>
-            </div>
-          </nav>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عکس رنگی کن</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./deepai.min.js"></script>
+  </head>
+  <body>
+    <nav>
       <div class="container">
-         <h3>فایل خود را آپلود کنید</h3>
-            <input type="file"
-            id="avatar" name="avatar"
-            accept="image/png, image/jpeg">
-            <br>
-            <h3>رنگ آمیزی را شروع کنید</h3>
-            <button id="but11">شروع</button>
-            <div id="result">
-                  
-            </div>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo right"> تست عکس رنگی کن</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li>
+              <a href="https://www.behance.net/sahandbabali">کارهای من</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <div class="container">
+      <h3>فایل خود را آپلود کنید</h3>
+      <input
+        type="file"
+        id="avatar"
+        name="avatar"
+        accept="image/png, image/jpeg"
+      />
+      <br />
+      <h3>رنگ آمیزی را شروع کنید</h3>
+      <button id="but11">شروع</button>
+      <div id="result"></div>
+    </div>
 
-      <script src="./app.js"></script>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
